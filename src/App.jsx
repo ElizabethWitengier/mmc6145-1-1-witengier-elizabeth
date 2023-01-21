@@ -14,8 +14,7 @@ export default function App() {
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />
-        <Route path='/components/project/:project1' element={<Project />} />
-        <Route path='/components/project/:project2' element={<Project />} />
+        <Route path='/components/project' element={<Project />} />
       </Routes>
       <Footer />
     </>

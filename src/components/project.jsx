@@ -1,8 +1,18 @@
 import styles from '../styles/home.module.css'
-import { useParams } from 'react-router-dom'
+import { useSearchParams } from 'react-router-dom'
 
-export default function Project() {
-  const {project1, project2, project3} = useParams()
-  return 
-      <p>This is my project {project1}.</p>
+
+  const projects = [
+    'News Website', 
+    'Learning Journey Infographic',
+    'Learning Journey Branding',
+    'The Crafty Hopper Website'
+  ];
+
+  export default function Project() {
+    const projectList = projects.map(titles => 
+      <li> {titles} </li>
+    );
+    return
+      <ul>{titles}</ul>
 }
