@@ -1,5 +1,5 @@
 import styles from '../styles/home.module.css'
-import { useSearchParams } from 'react-router-dom'
+
 
 
   const projects = [
@@ -13,6 +13,7 @@ import { useSearchParams } from 'react-router-dom'
     const projectList = projects.map(titles => 
       <li> {titles} </li>
     );
-    return
-      <ul>{titles}</ul>
+    return (
+      <ul> {titles} </ul>
+    ) 
 }

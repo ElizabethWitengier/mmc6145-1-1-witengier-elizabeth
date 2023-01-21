@@ -1,5 +1,4 @@
 import styles from '../styles/home.module.css'
-import Project from './components/project'
 
 export default function Home() {
   return (
@@ -9,7 +8,9 @@ export default function Home() {
       <div className={styles.portfoliocontainer}>
         <h2>Portfolio</h2>
       </div>
-      
+      <div>
+        
+      </div>
 
     </main>
   )
