@@ -3,7 +3,7 @@ import styles from '../styles/home.module.css'
 export default function About() {
   return (
     <main>
-      <h1 className={styles.placeholder}>A Little About Me</h1>
+      <h1>A Little About Me</h1>
       <article>
         <p>I am a professional content creator, designer, and strategic change maker. With over two decades of experience, I have worked with educational institutions, small businesses, and large corporations such as Volvo, Evian, and New Balance. 
         </p>
