@@ -1,5 +1,5 @@
 import styles from '../styles/home.module.css'
-import Project from '../components/project'
+// import Project from './project'
 
 export default function Home() {
   return (
