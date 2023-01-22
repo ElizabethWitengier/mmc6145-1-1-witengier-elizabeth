@@ -1,34 +1,45 @@
-import styles from '../styles/home.module.css'
-import { useSearchParams } from 'react-router-dom';
+import styles from '../styles/portfolio.module.css'
 
 
-  export default function Project(newsproject) {
-    return newsproject.projectName + '' + newsproject.date;
-  }
-  
-    const newsproject = {
-      projectName: 'Block by Block Website',
-      date: '2022'
+export default function Project() {
+  const projects = [
+    {
+      id: 1,
+      project: "Block by Block Website", 
+      date: 2022,
+      info: "This was an individual project created to design a website landing page"
+    },
+    {
+      id: 2,
+      project: "100 Days of Democracy",
+      date: 2022,
+      info: "The was an individual social media campaign created to promote 100 Days of Democracy"
+    },
+    {
+      id: 3,
+      project: "Florida Kids Eat Well Logo",
+      date: 2021,
+      info: "The was an individual project created to design a logo for a statewide initiative"
+    },
+    {
+      id: 4, 
+      project: "Toxic Exhibition Website",
+      date: 2021,
+      info: "The was an individual project created to teach about sustainable farming"
     }
-    
-
-    const element = (
-      
-      <h3>
-        Project: {Project(newsproject)}
-      </h3>
-    )
+  ]
 
 
-/* const branding = {
-  projectName: 'Florida Kids Eat Well Branding',
-  date: '2021'
+  
+  return (
+    <div className={styles.protfolio_card}>
+      <h1>Testing</h1>
+
+      {projects.map(project => (
+        <Project key={project.id} project={project.project} date={project.date} info={project.info} />
+      ))}
+    </div>
+  )
 }
-const toxicproject = {
-  projectName: 'Toxic: Our Food is Killing Us Exhibit',
-  date: '2022'
-}
-const democracy = {
-  projectName: '100 Days of Democracy Instrgram Campaign',
-  date: '2022'
-} */
+  
+  
