@@ -33,7 +33,7 @@ export default function Project() {
     <div>
       <h1>Testing</h1>
     
-      {project.map(project => (
+      {projects.map(project => (
         <projectList key={project.id} project={project.project_name} date={project.date} info={project.info} />
       ))}
     </div>
