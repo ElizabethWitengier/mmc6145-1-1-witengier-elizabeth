@@ -1,3 +1,8 @@
-.placeholder {
-  font-size: 4rem;
+.main {
+  margin-left: 2.2em;
+  margin-right: 2.2em;
+}
+
+element.style {
+  background-image: url(https://picsum.photos/id/20/700/500);
 }
