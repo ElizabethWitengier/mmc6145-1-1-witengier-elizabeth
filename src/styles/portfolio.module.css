@@ -2,11 +2,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: calc(var(--space) * 6);
-  margin-bottom: calc(var(--space) * 4);
+  margin-bottom: 2em;
   background-color: cornflowerblue;
-  opacity: 0.5;
-  background-blend-mode: darken;
   max-width: 100%;
   width: 700px;
 }
@@ -14,4 +11,17 @@
 .portfolio_date {
   font-style: italic;
   color: whitesmoke;
+  font-size: 1.2em;
 }
+
+img {
+    max-width: 700px;
+    min-width: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    transition: .3s;
+    position: relative;
+}
+

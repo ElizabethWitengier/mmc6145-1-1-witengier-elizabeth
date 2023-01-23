@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <main>
       <h1>Let's Get In Touch</h1>
-      <h2>Available for summer design projects!</h2>
+      <h2 style={{ color: "orange"}}>Available for summer design projects!</h2>
       <p>Reach me on my main social links:</p>
         <ul>
           <li>
