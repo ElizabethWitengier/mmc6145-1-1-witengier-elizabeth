@@ -8,7 +8,7 @@ export default function Home() {
       project_name: "Block by Block Website", 
       date: 2022,
       info: "This was an individual project created to design a website landing page",
-      photo: "public/images/block_by_block_website.png" 
+      photo: "/images/block_by_block_website.png" 
     },
     {
       id: 2,
@@ -16,21 +16,21 @@ export default function Home() {
 
       date: 2022,
       info: "The was an individual social media campaign created to promote 100 Days of Democracy",
-      photo: "public/images/100_days_of_democracy_instagram.png"
+      photo: "/images/100_days_of_democracy_instagram.png"
     },
     {
       id: 3,
       project_name: "Florida Kids Eat Well Logo",
       date: 2021,
       info: "The was an individual project created to design a logo for a statewide initiative",
-      photo: "public/images/florida_eat_well_logo_design 1.png"
+      photo: "images/florida_eat_well_logo_design 1.png"
     },
     {
       id: 4, 
       project_name: "Toxic Exhibition Website",
       date: 2022,
       info: "The was an individual project created to teach about sustainable farming",
-      photo: "public/images/toxic_exhibit_website.png"
+      photo: "/images/toxic_exhibit_website.png"
     }
   ]
   return (
